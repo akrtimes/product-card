@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsla(30, 38%, 92%, 1);
+}
+#wrapper{
+    height: 100vh;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.container{
+    display: flex;
+    height: 500px;
+    max-width: 700px;
+    padding: 0;
+    background-color: rgb(215, 158, 158); 
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: auto;
+    border-radius:30px;
+}
+.card-box{
+    height: 100%;
+    width: 40%;
+}
+.card-box img{
+    border-radius: 30px 0 0 30px;
+}
+.card-text{
+    position: relative;
+    height: 100%;
+    width: 60%;
+    border-radius: 0 30px 30px 0;
+}
+.bg{
+    background-color: white;
+}
+#coffee-mug-title{
+    position: relative;
+    text-align: left;
+    margin-top: 7.5%;
+    margin-left: 10%;
+    letter-spacing: 7px;
+    padding: 2px;
+    margin-bottom: 10px;
+    font-size: 1rem;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+}
+#desc{
+    position: relative;
+    text-align: left;
+    margin-left: 10%;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+}
+
+.card-box #mug{
+    height: 100%;
+    width: 100%;
+}
+#white-coffee-mug{
+    font-family: 'Fraunces', serif;
+    margin: 10%;
+}
+#price{
+    position: relative;
+    display: inline;
+    margin-left: 10%;
+    margin-right: 15px;
+    margin-top: 30px;
+    font-family: 'Fraunces';
+    color:hsl(158, 36%, 37%);
+}
+#cut-price{
+    display: inline;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(126, 126, 126);
+    font-weight: 500;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+#btn{
+    display: block;
+    font-family: "Montserrat", sans-serif;
+    margin-left: 10%;
+    height: 11%;
+    width: 80%;
+    border-radius: 11px;
+    background-color:hsl(158, 36%, 37%) ;
+    border: none;
+    color: white;
+}
+#btn:hover{
+    background-color: rgb(1, 52, 1);
+}
